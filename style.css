@@ -8,12 +8,14 @@ body {
     font-weight: 500;
     font-style: normal;
 }
- 
+
 
 
 .wrap1 {
     display: flex;
     justify-content: space-around;
+
+    
 
     a {
         color: black;
@@ -33,7 +35,14 @@ body {
 
 .wrap2 {
     h1 {
-       
+        
+            font-family: var(--font-family);
+            font-weight: 700;
+            font-size: 66px;
+            line-height: 133%;
+            letter-spacing: 0.05em;
+            color: #141414;
+        
     }
 
     p {
@@ -233,6 +242,7 @@ body {
     gap: 50px;
     padding-top: 50px;
     flex-wrap: wrap;
+
     a {
         color: gray;
         text-decoration: none;
@@ -245,6 +255,7 @@ body {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+
     a {
         color: gray;
         text-decoration: none;
